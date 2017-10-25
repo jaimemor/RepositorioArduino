@@ -1,7 +1,8 @@
 BODY  {
 	font-family : verdana,arial,helvetica;
-	font-size : 10pt;
-	background-color : #ffffff;
+	font-size : 15pt;
+	background-color : #009ccc;
+
 }
 
 
@@ -22,32 +23,36 @@ SELECT  {
 
 .tablacalendario{
 	width: 1200px;
+	height: 400PX;
 }
 .tablacalendario TD {
 	font-family : verdana,arial,helvetica;
-	font-size : 10pt;
+	font-size : 20pt;
 }
 .diasemana  {
 	font-family : verdana,arial,helvetica;
-	font-size : 10pt;
+	font-size : 20pt;
 	color: #ffffff;
-	background-color: #666666;
+	background-color: #009ccc;
 	text-align: center;
 }
 .tit, .titmesano  {
 	font-family : verdana,arial,helvetica;
-	font-size : 10pt;
+	font-size : 20pt;
 	color: #ffffff;
-	background-color: #333333;
+	background-color: #009ccc;
 	font-weight: bold;
 }
 .titmesano{
-	text-align: center;
+	  text-align: center;
+	  font-weight:bold;
+	  color:white;
+	  font-size:20pt;
 }
 .messiguiente, .mesanterior{
-	font-size:10pt;
-	font-weight:bold;
-	color:white;
+	  font-size:20pt;
+	  font-weight:bold;
+	  color:white;
 }
 .mesanterior{
 	text-align: right;

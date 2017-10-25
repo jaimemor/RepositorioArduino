@@ -2,12 +2,22 @@
 
 <html>
 <head>
-	<title>Calendario PHP</title>
+	
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>SISTEMA CONTROL ACCESO SALAS</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="STYLESHEET" type="text/css" href="estilo.css">
+
 </head>
 
 <body>
-<div align="center">
+
+	<div class="container-fluid">
+<div class="row">
+
+<div align="center" class="col-md-12 well" style="background: #fff ;">
 <?php
 require ("calendario.php");
 
@@ -26,6 +36,8 @@ if ($_POST) {
 mostrar_calendario($mes,$ano);
 formularioCalendario($mes,$ano);
 ?>
-</div>
-</body>
+</div></div>
+
+<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
+		<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8" async defer></script>
 </html>

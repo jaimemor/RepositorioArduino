@@ -68,7 +68,7 @@ function mostrar_calendario($mes,$ano){
 	echo '<table class="tablacalendario" cellspacing="3" cellpadding="2" border="0">';
 	echo '<tr><td colspan="7" class="tit">';
 	//tabla para mostrar el mes el año y los controles para pasar al mes anterior y siguiente
-	echo '<table width=1200px cellspacing="2" cellpadding="2" border="0"><tr><td class="messiguiente">';
+	echo '<table width=1200px heigth=400px cellspacing="2" cellpadding="2" border="0"><tr><td class="messiguiente">';
 	//calculo el mes y ano del mes anterior
 	$mes_anterior = $mes - 1;
 	$ano_anterior = $ano;
@@ -76,7 +76,8 @@ function mostrar_calendario($mes,$ano){
 		$ano_anterior--;
 		$mes_anterior=12;
 	}
-	echo '<a href="index.php?nuevo_mes=' . $mes_anterior . '&nuevo_ano=' . $ano_anterior .'"><span>&lt;&lt;</span></a></td>';
+	echo '<a href="index.php?nuevo_mes=' . $mes_anterior . '&nuevo_ano=' . $ano_anterior .'"><span>&lt;&lt;
+	</span></a></td>';
 	   echo '<td class="titmesano">' . $nombre_mes . " " . $ano . '</td>';
 	   echo '<td class="mesanterior">';
 	//calculo el mes y ano del mes siguiente
