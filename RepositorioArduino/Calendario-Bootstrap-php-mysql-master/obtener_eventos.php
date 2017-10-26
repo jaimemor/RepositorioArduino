@@ -9,7 +9,7 @@ include 'config.php';
 $sql="SELECT * FROM eventos"; 
 
 // Verificamos si existe un dato
-if ($conexion->query($sql)->num_rows)
+             if ($conn->query($sql)->num_rows)
 { 
 
     // creamos un array
@@ -19,7 +19,7 @@ if ($conexion->query($sql)->num_rows)
     $i=0; 
 
     // Ejecutamos nuestra sentencia sql
-    $e = $conexion->query($sql); 
+         $e = $conn->query($sql); 
 
     while($row=$e->fetch_array()) // realizamos un ciclo while para traer los eventos encontrados en la base de dato
     {
