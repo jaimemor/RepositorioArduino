@@ -255,7 +255,7 @@ if (isset($_POST['from']))
         <h4 class="modal-title" id="myModalLabel">Enviar solicitud</h4>
       </div>
       <div class="modal-body">
-       <form id="form1" name="form1"  method="post" action="correo.php">
+       <form id="form1" name="form1"  method="post" action="mostrar.php">
   <table width="669" border="0">
     <tr>
       <td width="317">Nombre</td>
