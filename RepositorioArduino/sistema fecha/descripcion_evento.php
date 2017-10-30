@@ -53,7 +53,7 @@ if (isset($_POST['eliminar_evento']))
 </head>
 <body>
 	 
-     <h3>Reservada por <?=$titulo?></h3>
+     <h3>NOMBRE PROFESOR <?=$titulo?></h3>
 
 	 <hr>
      <b>Fecha inicio:</b> <?=$inicio?>

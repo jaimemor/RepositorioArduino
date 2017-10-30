@@ -40,7 +40,8 @@ if (isset($_POST['from']))
         $clase  = evaluar($_POST['class']);
 
         // insertamos el evento
-        $query="INSERT INTO eventos VALUES(null,'$titulo','$body','','$clase','$inicio','$final','$inicio_normal','$final_normal')";
+        $query="INSERT INTO eventos VALUES(null,'$titulo','$body','','$clase','$inicio','$final'
+        ,'$inicio_normal','$final_normal')";
 
         // Ejecutamos nuestra sentencia sql
         $conexion->query($query); 
