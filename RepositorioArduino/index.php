@@ -17,8 +17,13 @@
 		<input type="submit" onclick=" location.href='' " value="ingresar" name="boton" class="btn btn-primary" style='width:125px; height:55px'/> 
 	</form>
 
+			
+
+			 
 </div>
-       
+
+       <div><a href="formulario.php"> ¿Olvidaste tu contraseña? Recupera tu contraseña Aqui</a> </div>
+       <div> <a href='Recuperar Clave.php'>¿No tienes cuenta? regístrate aquí</a></div>
 	
 </body>
 
