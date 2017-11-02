@@ -1,9 +1,9 @@
 <?php 
 	session_start();
-	error_reporting(0);
+	error_reporting(0);  
 	$varsesion=$_SESSION['login'];
 
-	if ($varsesion == null || $varsesion = '') {
+	if ($varsesion == null || $varsesion = '') { //para qeu la pagina tenga acceso solo quien inicio session
 		echo "acceso denegado";
 		die();
 	}
@@ -22,6 +22,6 @@
 	<h2>hola <?php echo $_SESSION['login']; ?></h2>
 	<a href="cerrar.php">cerrar</a>
 
-	
+
 </body>
 </html>

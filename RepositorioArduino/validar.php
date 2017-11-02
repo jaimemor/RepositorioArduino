@@ -3,7 +3,7 @@
 	$rut =$_REQUEST['rut'];
 	$pass=md5($_REQUEST['pass']);
 
-	$sql="SELECT rut FROM datos WHERE rut = '$rut' AND password = '$pass'";
+	$sql="SELECT rut FROM datos WHERE rut = '$rut' AND pass = '$pass'";
 	$smt=$conn->prepare($sql);
     $smt->execute();
     $resultado= $smt->fetchall();
