@@ -19,6 +19,6 @@ if ($conexion->connect_errno) {
 
 // Url donde estara el proyecto, debe terminar con un "/" al final
 //$base_url="http://localhost/a/Calendario-Bootstrap-php-mysql-master/";
-$base_url="http://localhost/RepositorioArduino/RepositorioArduino/inicio.php/";
+$base_url="http://localhost/RepositorioArduino/RepositorioArduino/index.php/";
 
 ?>
