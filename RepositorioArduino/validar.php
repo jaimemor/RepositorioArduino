@@ -12,7 +12,7 @@
    if (!empty($resultado)) {
    	session_start();
 	$_SESSION['login'] = $resultado[0]['rut'];
-	header("Location:panel.php");
+	header("Location:inicio.php");
 
    	
    }else{

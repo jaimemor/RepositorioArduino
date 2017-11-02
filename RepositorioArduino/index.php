@@ -10,12 +10,11 @@
 	<div class="col-md-6 well" style="background: #fff ;">
 
 	<form action="validar.php" method="Get">
-		<label for="">Rut:</label>
-		<input type="text" name="rut">
-		<label for="">Contraseña:</label>
-		<input type="text" name="pass">
-		<input type="submit" value="entrar">
-		<input type="submit" onclick=" location.href='' " value="ingresar" name="boton" class="btn btn-primary" style='width:70px; height:25px'/> 
+		
+ <p>Nombre de usuario: <input type="Usuario" name="rut" placeholder="Usuario" maxlength="9"></p>
+  <p>Contraseña: <input type="password" name="pass" placeholder="Contraseña"  ></p>
+		
+		<input type="submit" onclick=" location.href='' " value="ingresar" name="boton" class="btn btn-primary" style='width:125px; height:55px'/> 
 	</form>
 
 </div>
